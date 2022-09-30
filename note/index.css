@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 10px;
+   
+    
+}
+
+h1{
+     font-weight: 200;
+     font-size: 40px;
+        margin-top: 0;
+     margin-bottom: 10px;
+}
+h4{
+    margin-top: 0;
+    color: green;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.box1{
+    display: flex;
+    margin-bottom: 20px;
+}
+h3{
+    padding-top: 6px;
+    padding-right: 10px;
+    font-weight: 500;
+}
+textarea{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: scale(1);
+    transition: transform 250ms;
+    text-align: start;
+    padding: 5px;
+}
+textarea:hover,
+textarea:focus{
+    transform: scale(1.05);
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: linear-gradient(135deg,#40916c,#1b4332);
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: transform 250ms;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px 6px;
+
+}
+
+.red{
+    background: red;
+}
+button:hover
+{
+    transform: scale(1.2);
+}
+button:active{
+    transform: scale(1);
+}
+
+.ul-container{
+    max-width: 450px;
+    
+   
+}
+
+
+li{
+    max-width: 450px;
+    height: 200px;
+    list-style-type: none;
+    border-left: 3px solid #283618;
+    border-top: 3px solid #283618;
+    border-right: 3px solid #283618;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin: 50px 0px 80px 10px;  
+    transform: scale(1);
+    transition: transform  450ms ;
+    background: #007f5f;
+    color: wheat;
+
+    
+   
+   
+}
+
+li:hover{
+    transform: scale(1.7); 
+    background: #a3b18a;
+    opacity: 1;
+    color: black;
+    font-size:9px;
+    padding-top: 15px;
+    
+}
+
+p{
+    font-size: 10px;
+    color: darkgreen;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+
